@@ -61,7 +61,7 @@ h1 {
 {
     color: black;
     background-color: deepskyblue;
-    width: 100%;
+    width: 70%;
     height: 10%px;
     margin: auto;
     text-align: center;
@@ -173,15 +173,35 @@ border-color: deepskyblue;
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  
+  display: none;
   position: absolute;
-    top:80;
+  background-color: #f1f1f1;
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-hyperlink {
+  position: absolute;
+    top:10;
     left:0;
   background-color: #f1f1f1;
   min-width: 10%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+.dropdown-hyperlink a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-hyperlink a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.menuItem:hover .dropdown-hyperlink {display: block;}
 
 /* Links inside the dropdown */
 .dropdown-content a {
