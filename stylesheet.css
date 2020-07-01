@@ -34,16 +34,14 @@ body {
     min-width: 210px; 
     background-color: transparent;
     float: left;
-    
 }
 
 
 
 .right {    
-    
-    width: 80%;
+
     background-color: transparent;
-   float: left;
+    float: left;
 
 }
 
@@ -86,8 +84,9 @@ h2 {
     border-style: solid;
     width: 700px;
     height: 60%;
-    margin:auto;
+    margin: auto;
     opacity: 90%;
+
     
 }
 
@@ -165,7 +164,7 @@ border-color: deepskyblue;
 .menuItem {
   text-align: center;
   position: relative;
-  width:100%;
+  width: 100%;
   padding: left;
   
 
@@ -330,3 +329,46 @@ border-color: deepskyblue;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media screen and (max-width: 900px) {
+  .right, .Content, .MainClass, .Navigation {
+    width: 100%;
+    float: none;
+  }
+    .Images {
+        display: none;
+    }
+    
+    .Navigation {
+     margin: inherit;
+    padding: none;
+        
+    }
+    
+    .left {
+        
+        display: none;
+    }
+    
+    .Dropdown1 {
+        
+        width: 33%;
+    }
+    
+    .Dropdown2 {
+        
+        width: 33%;
+    }
+    
+        .Dropdown3 {
+        
+        width: 33%;
+    }
+    
+    .MenuItem {
+        padding: none;
+    }
+    
+    .
+    
+} 
